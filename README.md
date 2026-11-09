@@ -3,10 +3,12 @@
 > [!IMPORTANT]
 > **ARCHIVE NOTICE / PRESERVATION MIRROR (AS-IS)**
 > This repository is an unmaintained historical archive and preservation mirror. The original repository and author disappeared / were taken down, so this copy was preserved and re-uploaded for archival purposes. 
-> - **No new commits, feature additions, or active maintenance will be made.**
-> - The files are provided "as-is" for personal preservation, testing, and research.
+> - **Archive & Preservation Purpose Only:** Provided strictly for historical preservation, research, and offline testing.
+> - **Credits & Intellectual Property:** All rights, assets, and trademarks belong to **Electronic Arts (EA)**, **EA SPORTS**, and **FIFA**.
+> - **Takedown Policy:** Any content will be promptly removed upon request by rights holders.
+> - **No active development:** No new commits, feature additions, or active maintenance will be made.
 >
-> *(Para la versión en español, desplázate hacia abajo o consulta la sección al final).*
+> *(Para la versión en español y aviso legal completo, desplázate hacia abajo o consulta la sección al final).*
 
 ---
 
@@ -132,6 +134,12 @@ The filename is intentionally left unchanged. It is part of the compatibility ch
 
 The launcher backs up existing client files before installing the payload. Use `RESTORE_BACKUP.cmd` if you want to return to the original files.
 
+## Legal Disclaimer & IP Notice
+
+- **Archive Purpose Only:** This repository is hosted strictly for non-commercial historical preservation, archival, and educational research purposes following the takedown/deletion of the original repository.
+- **Credits & Trademarks:** All game titles, assets, audio, graphics, logos, and trademarks belong to **Electronic Arts Inc. (EA)**, **EA SPORTS**, **FIFA**, and their respective licensors. No copyright infringement is intended.
+- **Takedown Request:** If you are a copyright holder or official representative and wish for this material to be taken down, please submit a request or open an issue and the content will be removed immediately.
+
 ---
 ---
 
@@ -140,8 +148,10 @@ The launcher backs up existing client files before installing the payload. Use `
 > [!IMPORTANT]
 > **AVISO DE ARCHIVO / COPIA DE PRESERVACIÓN (TAL CUAL)**
 > Este repositorio es un archivo histórico y réplica de preservación sin mantenimiento activo. El repositorio original fue eliminado/dado de baja de internet, por lo que esta copia fue guardada y resubida con fines de preservación.
-> - **No se realizarán nuevos commits, mejoras de funciones ni mantenimiento activo.**
-> - Todo el contenido se proporciona "tal cual" (*as-is*) para preservación y uso personal.
+> - **Fines de archivo y preservación exclusivamente:** Uso no comercial, estudio y pruebas locales offline.
+> - **Créditos y derechos:** Todos los derechos, marcas y activos pertenecen a **Electronic Arts (EA)**, **EA SPORTS** y **FIFA**.
+> - **Retirada de contenido:** Cualquier material será eliminado inmediatamente a solicitud de los titulares de los derechos.
+> - **Sin mantenimiento:** No se realizarán nuevos commits ni actualizaciones.
 
 ---
 
@@ -189,6 +199,19 @@ Para más detalles, consulta [`INSTRUCCIONES_ARCHIVOS_GRANDES.txt`](INSTRUCCIONE
 
 Ejecuta **`ADMIN_MENU.cmd`** para abrir el panel gráfico del servidor local. Permite:
 - Añadir o modificar monedas y FIFA Points.
+- Modificar el nombre del club y manager.
+- Crear, duplicar y configurar sobres de la tienda (probabilidades, medias mínimas garantizadas, precios).
+- Configurar el mercado de transferencias simulado por IA.
+- Respaldar partidas o reiniciar el club de forma segura.
+
+---
+
+## Aviso Legal y Propiedad Intelectual
+
+- **Fines de Archivo y Preservación:** Este repositorio se comparte de manera no comercial con fines de archivo histórico, investigación educativa y respaldo personal ante la desaparición del repositorio original.
+- **Créditos y Marcas Registradas:** Todos los títulos, activos, logos, audios y marcas registradas son propiedad de **Electronic Arts Inc. (EA)**, **EA SPORTS**, **FIFA** y sus respectivos licenciantes.
+- **Solicitud de Eliminación (Takedown):** Si eres titular de los derechos de autor o un representante legal y requieres que este material sea retirado, abre una solicitud o incidencia y el contenido será eliminado inmediatamente.
+
 - Modificar el nombre del club y manager.
 - Crear, duplicar y configurar sobres de la tienda (probabilidades, medias mínimas garantizadas, precios).
 - Configurar el mercado de transferencias simulado por IA.
