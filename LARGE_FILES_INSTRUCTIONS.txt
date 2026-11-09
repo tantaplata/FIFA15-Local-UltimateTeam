@@ -1,0 +1,80 @@
+================================================================================
+FIFA 15 LOCAL FUT - REQUIRED EXTERNAL ASSETS / LARGE FILES
+================================================================================
+
+PROJECT NOTICE:
+This repository is an unmaintained preservation mirror and historical archive.
+The original repository was removed/deleted from the internet. The files here
+are provided "as-is" with no active development or new commits planned.
+
+WHY ARE THESE FILES HOSTED EXTERNALLY?
+GitHub enforces a strict 100 MB file limit per file (and warnings at 50 MB).
+The core game archives (.big files) required by this offline FUT modification
+exceed this limit and are therefore packaged together in an external ZIP archive.
+
+ZIP filename:
+  archivos_grandes_fifa15.zip  (or FIFA15_Large_Files.zip)
+
+--------------------------------------------------------------------------------
+OPTION 1: AUTOMATIC EXTRACTION (RECOMMENDED & EASIEST)
+--------------------------------------------------------------------------------
+1. Download "archivos_grandes_fifa15.zip" from the external link provided on
+   the GitHub repository page (Releases / Mega / Google Drive / MediaFire).
+2. Move the ZIP archive into the ROOT FOLDER of this project
+   (the exact same folder that contains PLAY_LOCAL_FUT15.cmd and README.md).
+3. Right-click the ZIP and choose "Extract Here" (or use 7-Zip / WinRAR).
+   Because the ZIP preserves internal folder structures, all 5 files will
+   automatically be placed into their correct destinations!
+
+--------------------------------------------------------------------------------
+OPTION 2: MANUAL PLACEMENT
+--------------------------------------------------------------------------------
+If you extract the ZIP elsewhere and prefer to copy the files manually, copy
+each file to its exact destination inside your project folder:
+
+1) data_patch.big (150.47 MB - Patched Local FUT database)
+   Destination path:
+   payload\data_patch.big
+
+2) cards0.big (51.71 MB - Card art and pack assets)
+   Destination path:
+   payload\cards0.big
+
+3) locale.big (45.64 MB - Text and localization database)
+   Destination path:
+   payload\data\loc\locale.big
+
+4) data_startup.big (26.46 MB - Game startup metadata)
+   Destination path:
+   payload\data_startup.big
+
+5) data_patch.big [Original] (150.47 MB - Pre-legends client backup)
+   Destination path:
+   original-client-db-before-legends\data_patch.big
+
+--------------------------------------------------------------------------------
+DIRECTORY TREE CHECK
+--------------------------------------------------------------------------------
+After extracting or placing the files, your folder structure should look like this:
+
+[Project Root Folder]
+├── PLAY_LOCAL_FUT15.cmd
+├── INSTALL_PREREQUISITES.cmd
+├── ADMIN_MENU.cmd
+├── README.md
+├── original-client-db-before-legends\
+│   ├── data_patch.bh
+│   └── data_patch.big                     <-- (Place here)
+└── payload\
+    ├── data_patch.bh
+    ├── data_patch.big                     <-- (Place here)
+    ├── cards0.bh
+    ├── cards0.big                         <-- (Place here)
+    ├── data_startup.bh
+    ├── data_startup.big                   <-- (Place here)
+    └── data\
+        └── loc\
+            └── locale.big                 <-- (Place here)
+
+Once these files are in place, run PLAY_LOCAL_FUT15.cmd to launch the game.
+================================================================================

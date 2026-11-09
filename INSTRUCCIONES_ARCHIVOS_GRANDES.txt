@@ -1,0 +1,73 @@
+================================================================================
+FIFA 15 LOCAL FUT - ARCHIVOS EXTERNOS / ARCHIVOS GRANDES REQUERIDOS
+================================================================================
+
+Debido a que GitHub tiene un limite estricto de 100 MB por archivo (y advertencias
+a partir de 50 MB), los archivos pesados del juego se alojan externamente en un ZIP.
+
+Nombre del archivo ZIP:
+  archivos_grandes_fifa15.zip
+
+--------------------------------------------------------------------------------
+OPCION 1: INSTALACION AUTOMATICA (RECOMENDADA)
+--------------------------------------------------------------------------------
+1. Descarga el archivo "archivos_grandes_fifa15.zip" desde el enlace externo
+   (GitHub Releases / Mega / Google Drive / MediaFire).
+2. Coloca o abre el ZIP en la CARPETA RAIZ de este proyecto
+   (donde estan PLAY_LOCAL_FUT15.cmd y README.md).
+3. Selecciona "Extraer aqui" (Extract here).
+   Como el ZIP ya conserva la estructura interna de carpetas, todos los archivos
+   se colocaran automaticamente en su lugar exacto.
+
+--------------------------------------------------------------------------------
+OPCION 2: COLOCACION MANUAL DE CADA ARCHIVO
+--------------------------------------------------------------------------------
+Si decides extraerlos manualmente o en una carpeta aparte, copia cada archivo a
+su ruta correspondiente dentro del proyecto:
+
+1) data_patch.big (150.47 MB - Base de datos parcheada de FUT)
+   Destino:
+   payload\data_patch.big
+
+2) cards0.big (51.71 MB - Archivo de cartas/assets)
+   Destino:
+   payload\cards0.big
+
+3) locale.big (45.64 MB - Localizacion e idiomas)
+   Destino:
+   payload\data\loc\locale.big
+
+4) data_startup.big (26.46 MB - Archivos de inicio del juego)
+   Destino:
+   payload\data_startup.big
+
+5) data_patch.big [Original] (150.47 MB - Respaldo antes de leyendas)
+   Destino:
+   original-client-db-before-legends\data_patch.big
+
+--------------------------------------------------------------------------------
+VERIFICACION RAPIDA
+--------------------------------------------------------------------------------
+Una vez colocados los archivos, la estructura debe quedar asi:
+
+[Carpeta raiz del proyecto]
+├── PLAY_LOCAL_FUT15.cmd
+├── INSTALL_PREREQUISITES.cmd
+├── ADMIN_MENU.cmd
+├── original-client-db-before-legends\
+│   ├── data_patch.bh
+│   └── data_patch.big                     <-- (Colocar aqui)
+└── payload\
+    ├── data_patch.bh
+    ├── data_patch.big                     <-- (Colocar aqui)
+    ├── cards0.bh
+    ├── cards0.big                         <-- (Colocar aqui)
+    ├── data_startup.bh
+    ├── data_startup.big                   <-- (Colocar aqui)
+    └── data\
+        └── loc\
+            └── locale.big                 <-- (Colocar aqui)
+
+Una vez que estos archivos esten en su lugar, puedes ejecutar PLAY_LOCAL_FUT15.cmd
+normalmente.
+================================================================================
